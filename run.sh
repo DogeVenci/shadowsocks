@@ -1,2 +1,2 @@
 cd ~/shadowsocks
-python server 
+python server.py

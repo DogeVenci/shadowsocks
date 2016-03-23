@@ -1,0 +1,2 @@
+cd ~/shadowsocks
+python server 

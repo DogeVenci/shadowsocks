@@ -8,7 +8,7 @@ MAINTAINER Dubu Qingfeng <1135326346@qq.com>
 ENV REFRESHED_AT 2015-06-05
 
 RUN apt-get -qq update && \
-    apt-get install -q -y wget git-core build-essential python-pip python-m2crypto python-gevent&& \
+    apt-get install -q -y git-core python-m2crypto python-gevent&& \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 RUN git clone https://github.com/ReZELChan/shadowsocks.git
